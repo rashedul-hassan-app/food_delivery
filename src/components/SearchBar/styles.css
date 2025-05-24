@@ -1,0 +1,7 @@
+.search-bar {
+    display: flex;
+    border-radius: 20px;
+    width: 100%;
+    background-color: #f0f0f0;
+    padding: 10px;
+}

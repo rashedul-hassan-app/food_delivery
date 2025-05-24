@@ -16,6 +16,13 @@ module.exports = {
   },
   module: {
     rules: [
+       {
+        test: /\.css$/i,
+        use: [
+          'style-loader',  // injects <style> tags
+          'css-loader'     // resolves imports/url()
+        ]
+      },
       {
         test: /\.ts(x?)$/,
         exclude: [/node_modules/, /\.test\./],
